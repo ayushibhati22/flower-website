@@ -1,0 +1,473 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    
+}
+
+    
+
+
+.navigationbar{
+    
+    height: 69px;
+    width: 100%;
+    background-color: beige;
+    color: black;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+}
+.heading{
+background-image: url("https://assets.farmgirlflowers.com/logo.png");
+background-size: cover;
+background-color: black;
+
+}
+.infoicon{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #626262;
+
+}
+.options{
+    display: flex;
+    height: 68 px;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly
+
+}
+.border{color: #626262 ;}
+    
+   
+
+.border:hover{color:  rgb(161, 63, 63);}
+.content{
+    background-image:url("flower-shop-banner-template_23-2149075101.webp");
+    background-size: cover;
+    height: 500px;
+    
+}
+.box1{
+   
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style:normal ;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    letter-spacing: 1px;
+ 
+}
+.box2{
+    
+    font-size: 1rem;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    letter-spacing: 0.15rem;
+   
+}
+.content2{
+    display: flex;
+    height: 42px;
+    color: #626262;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    letter-spacing: 0.15rem;
+    margin-left: 2rem;
+
+}
+.picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    border-top: 5px;
+    border-color: black;
+    height: 254px;
+   
+}
+.pearl{
+    
+    background-image:url("qiudfzlulr1etmwapxxw.webp");
+    background-size: cover;
+    height: 254px;
+    width:250px;
+    position: relative;
+    
+    
+    
+}
+.pearl1{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+   padding: 1rem;
+   padding-bottom: 10%;
+   font-family: "Cedarville Cursive", cursive;
+   font-weight: 400;
+   font-style: normal;
+   
+    
+}
+.hop{
+    background-image:url("hop_scotch_82fb298bfa.webp");
+    background-size: cover;
+    height: 254px;
+    width:250px;
+    position: relative;
+    
+   
+}
+.hop1{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+    padding: 1rem;
+    padding-bottom: 10%;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+   
+    
+}
+.message{background-image:url("uha6govyijdsywxc5nsl.webp");
+    background-size: cover;
+    height: 254px;
+    width:250px;
+    position: relative;
+
+}
+.message1{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+    padding: 1rem;
+    padding-bottom: 10%;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+.delivery{
+    margin-top: 50px;
+    margin-left: 80px;
+    letter-spacing: 2px;
+}
+.locations{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.img1{
+    background-image: url("india_interflora_lenses_20220928.webp");
+ height: 80px;
+    width: 66px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.country{
+    position: absolute;
+    bottom: -50%;
+    margin-top: 12px;
+    color: #49586e;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.img2{
+    background-image: url("usa_interflora_lenses_20220916.webp");
+    height: 80px;
+    width: 66px;
+    background-size: cover;
+    display: flex;
+    position: relative;}
+.img3{
+    background-image: url("netherlands_interflora_lenses_20220916.webp");
+    height: 80px;
+    width: 66px;
+    background-size: cover;
+    display: flex;
+    position: relative;}
+.img4{
+    background-image: url("uk_interflora_lenses_20220916.webp");
+    height: 80px;
+    width: 66px;
+    background-size: cover;
+    display: flex;
+    position: relative;}
+.img5{
+   background-image: url("canada_interflora_lenses_20220916.webp");
+   height: 80px;
+   width: 66px;
+   background-size: cover;
+   display: flex;
+   position: relative;}
+.img6{
+    background-image: url("australia_interflora_lenses_20220916.webp");
+    height: 80px;
+    width: 66px;
+    background-size: cover;
+    display: flex;
+    position: relative;}
+
+.image{
+    width: 100%;
+    height: 41rem;
+  
+    background-image: url("founders_note_d_illustration_830_1744369317144.webp");
+    background-size: cover;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.image2{width: 100%;
+    height: 200px;
+  
+    background-image: url("media_coverage_d_illustration_830_1732536495675.webp");
+    background-size: cover;
+    
+    margin-bottom: 10%;
+
+}
+.reviews{
+    background: #45485e;
+   
+    padding: 24px 38px 42px;
+    width: 100%;
+    height: 422px;
+    
+}
+.customer{
+    font-family: "Montserrat Regular";
+    color: #ece8e8;
+    font-size: 20px;
+    line-height: 1rem;
+}
+.para{
+    font-size: 1.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.view1{width: 100px;
+    height: 100px;
+  
+    background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_prodth/products/p-sweet-sentiments-240889-m.jpg");
+    background-size: cover;
+    
+    margin-bottom: 10%;
+    border-radius: 10%;
+    position: relative;
+    left: 40px;
+    
+
+}
+.view2{width: 100px;
+    height: 100px;
+  
+    background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_prodth/products/p-garden-of-memories-284957-m.jpg");
+    background-size: cover;
+    
+    margin-bottom: 10%;
+    border-radius: 10%;
+    position: relative;
+    left: 40px;
+    
+
+}
+.view3{width: 100px;
+    height: 100px;
+  
+    background-image: url("https://res.cloudinary.com/interflora/f_auto,q_auto,t_prodth/products/p-vanilla-sunshine-greetings-284650-m.jpg");
+    background-size: cover;
+    
+    margin-bottom: 10%;
+    border-radius: 10%;
+    position: relative;
+    left: 40px;
+    
+    
+   
+
+}
+.dibba{
+    height: 270px;
+    padding: 20px 24px 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 240px;
+    position: relative;
+   
+}
+.element{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:2.5rem;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+   
+    color: #49586e;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    
+}
+footer{
+    height: 673px;
+    padding: 32px 0 100px;
+    margin: 44px 0 0;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+  
+}
+.follow2{
+    font-family: "Montserrat Regular";
+    color: #222;
+    font-size: 12px;
+    line-height: 1;
+    height: 80px;
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.if{
+    height: 52px;
+    width: 52px;
+    background-color: dodgerblue;
+    margin-left: 30px;
+    border-radius: 50%;
+  
+    
+    
+}
+.follow3{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+  
+    
+    
+    
+
+}
+.off{
+    margin-right: 300px;
+    margin-top: 50px;
+    color: #6b6565;
+   
+}
+.follow3 a{font-family: "Montserrat Regular";
+    color:#6b6565;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: lighter;
+    letter-spacing: 2px;
+    
+}
+.follow4{
+    
+    font-family: "Montserrat Semibold";
+    font-size: 16px;
+    font-weight: 400;
+    
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6b6565;
+}
+.follow5{text-align: left;
+    margin-top: 20px;
+
+}
+.follow5 h3{text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.follow5 button{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: solid 1px #2e2d42;
+    font-family: "Montserrat Semibold";
+    font-size: 12px;
+    font-weight: 600;
+    
+    line-height: 1.4;
+    
+    text-align: center;
+    color: #2e2d42;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.videos{
+    display: flex;
+    
+    justify-content:space-evenly;
+    align-items: center;
+       
+    width: 100;
+    height: 273px;
+    border-radius: 20px;
+    border-color: black;
+    
+    
+    
+        
+}
+.view{
+    margin-left: 40px;
+}
+

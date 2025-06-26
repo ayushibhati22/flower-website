@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navigationbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;}
+.logo{
+    background-image:url("logo-brand-amazon-american-international-commerce-company-logo-brand-amazon-american-international-commerce-company-209364080.webp");
+    background-size: cover;
+    background-color: white;
+    height: 50px;
+    width: 114px;
+}
+.navlogo{
+    height: 50px;
+    width: 114px;
+}
+.location{
+    display: flex;
+}
+
+
+
+.border{
+    border:2px solid transparent;
+   
+}
+.border:hover{color:solid rgb(153, 33, 33);}
+.searchbar{
+    display: flex;
+    height: 40px;
+    width:500px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.searchselselect{
+    background-color: #f3f3f3;
+    text-align: center;
+    border:none ;
+
+}
+.searchsection{
+    width: 100%;
+
+}
+span{ font-size: 0.7 rem;
+
+}
+
+.add1{font-size: 0.85 rem;
+    font-weight: 700;
+
+
+}
+
